@@ -1,0 +1,11 @@
+#----Bogenmaß in Gradmaß
+
+x = float (input("Wie groß ist das Bogenmaß?"))
+
+from math import pi
+
+y = ((pi/180)*x) 
+
+
+
+print (y)
