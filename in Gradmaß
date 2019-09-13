@@ -1,11 +1,11 @@
 #----Bogenmaß in Gradmaß
 
-x = float (input("Wie groß ist das Bogenmaß?"))
+x = float (input("Wie groß ist das Bogenmaß?"))#input Bogenmaß 
 
-from math import pi
+from math import pi #import pi 
 
-y = ((pi/180)*x) 
+y = ((pi/180)*x) #formula von Bogenmaß zu Gradmaß
 
 
 
-print (y)
+print (y) #print Gradmaß
